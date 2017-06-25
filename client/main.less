@@ -1,0 +1,56 @@
+// libs
+@import '{ethereum:dapp-styles}/dapp-styles.less';
+
+html {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  padding: 0;
+
+  body {
+    width: 100%;
+    margin: 0;
+    height: 100%;
+
+    .blockchain {
+      height: 80px;
+      width: 500px;
+      padding: 20px 50px;
+
+      .block {
+        font-weight: bold;
+        font-size: 20px;
+        color: #4d4c49;
+      }
+    }
+
+    .wrapper {
+      width: 80%;
+      margin: auto;
+      text-align: center;
+
+      .menu {
+        width: 80%;
+        margin: auto;
+        height: 50px;
+
+        .menu-item {
+          width: 24%;
+          float: left;
+          display: inline-block;
+          height: 100%;
+          line-height: 50px;
+          color: #4d4c49;
+
+          a {
+            font-size: 18px;
+          }
+        }
+
+        .menu-item:hover {
+          background: #dcdede;
+        }
+      }
+    }
+  }
+}

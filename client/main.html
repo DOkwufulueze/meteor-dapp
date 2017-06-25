@@ -1,0 +1,24 @@
+<head>
+  <title>Dental Office</title>
+</head>
+
+<body>
+  <div class="blockchain"><div class="block">{{> block}}</div></div>
+  <div class="wrapper">
+    <h1>Welcome to Optimum Dental!</h1>
+    {{> links}}
+  </div>
+</body>
+
+<template name="block">
+  Current Block in the blockchain: {{currentBlock}}
+</template>
+
+<template name="links">
+  <div class="menu">
+    <div class="menu-item"><a href="#" target="_blank">Home</a></div>
+    <div class="menu-item"><a href="#" target="_blank">About</a></div>
+    <div class="menu-item"><a href="#" target="_blank">Book Appointment</a></div>
+    <div class="menu-item"><a href="#" target="_blank">Our Doctors</a></div>
+  </div>
+</template>
